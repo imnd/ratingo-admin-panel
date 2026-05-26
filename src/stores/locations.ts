@@ -8,6 +8,8 @@ export interface Location {
   name: string
   google_maps_url: string
   justdial_url: string | null
+  sulekha_url: string | null
+  makemytrip_url: string | null
   is_active: boolean
   qr_code?: {
     id: number
@@ -48,7 +50,13 @@ export const useLocationsStore = defineStore('locations', () => {
     }
   }
 
-  async function addLocation(payload: { name: string; google_maps_url: string; justdial_url?: string | null }) {
+  async function addLocation(payload: {
+    name: string
+    google_maps_url: string
+    justdial_url?: string | null
+    sulekha_url?: string | null
+    makemytrip_url?: string | null
+  }) {
     const api = useApi()
     loading.value = true
     try {
@@ -70,7 +78,14 @@ export const useLocationsStore = defineStore('locations', () => {
     }
   }
 
-  async function editLocation(id: number, payload: { name: string; google_maps_url: string; justdial_url?: string | null; is_active?: boolean }) {
+  async function editLocation(id: number, payload: {
+    name: string
+    google_maps_url: string
+    justdial_url?: string | null
+    sulekha_url?: string | null
+    makemytrip_url?: string | null
+    is_active?: boolean
+  }) {
     const api = useApi()
     loading.value = true
     try {

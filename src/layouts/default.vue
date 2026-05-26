@@ -275,6 +275,21 @@
                         <ExternalLinkIcon class="w-3 h-3" />
                       </a>
                     </div>
+
+                    <div v-if="loc.sulekha_url" class="flex items-center gap-1.5 truncate">
+                      <span class="text-slate-500 text-[10px] w-12 font-medium uppercase">Sulekha:</span>
+                      <a :href="loc.sulekha_url" target="_blank" class="text-brand-400 hover:underline truncate flex items-center gap-0.5">
+                        <span>View Sulekha</span>
+                        <ExternalLinkIcon class="w-3 h-3" />
+                      </a>
+                    </div>
+                    <div v-if="loc.makemytrip_url" class="flex items-center gap-1.5 truncate">
+                      <span class="text-slate-500 text-[10px] w-12 font-medium uppercase">MMT:</span>
+                      <a :href="loc.makemytrip_url" target="_blank" class="text-brand-400 hover:underline truncate flex items-center gap-0.5">
+                        <span>View MakeMyTrip</span>
+                        <ExternalLinkIcon class="w-3 h-3" />
+                      </a>
+                    </div>
                     <div class="flex items-center gap-1.5" v-if="loc.qr_code">
                       <span class="text-slate-500 text-[10px] w-12 font-medium uppercase">Scans:</span>
                       <span class="text-slate-200 font-semibold">{{ loc.qr_code.scan_count }} scans</span>
@@ -356,6 +371,29 @@
                 id="loc-jd"
                 type="url"
                 placeholder="https://www.justdial.com/..."
+                class="w-full bg-slate-900 border border-slate-800 focus:border-brand-500 rounded-xl px-4 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none transition-all"
+              />
+            </div>
+
+
+            <div>
+              <label for="loc-sulekha" class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Sulekha URL (Optional)</label>
+              <input
+                v-model="locationForm.sulekha_url"
+                id="loc-sulekha"
+                type="url"
+                placeholder="https://www.sulekha.com/..."
+                class="w-full bg-slate-900 border border-slate-800 focus:border-brand-500 rounded-xl px-4 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none transition-all"
+              />
+            </div>
+
+            <div>
+              <label for="loc-mmt" class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">MakeMyTrip URL (Optional)</label>
+              <input
+                v-model="locationForm.makemytrip_url"
+                id="loc-mmt"
+                type="url"
+                placeholder="https://www.makemytrip.com/..."
                 class="w-full bg-slate-900 border border-slate-800 focus:border-brand-500 rounded-xl px-4 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none transition-all"
               />
             </div>
@@ -489,7 +527,7 @@ const locationsModalOpen = ref(false)
 const addEditModalOpen = ref(false)
 const isEditMode = ref(false)
 const formSubmitting = ref(false)
-const locationForm = ref({ id: null, name: '', google_maps_url: '', justdial_url: '', is_active: true })
+const locationForm = ref({ id: null, name: '', google_maps_url: '', justdial_url: '', sulekha_url: '', makemytrip_url: '', is_active: true })
 
 // QR modal state
 const qrModalOpen = ref(false)
@@ -570,7 +608,7 @@ const closeLocationsModal = () => {
 
 const openAddLocation = () => {
   isEditMode.value = false
-  locationForm.value = { id: null, name: '', google_maps_url: '', justdial_url: '', is_active: true }
+  locationForm.value = { id: null, name: '', google_maps_url: '', justdial_url: '', sulekha_url: '', makemytrip_url: '', is_active: true }
   addEditModalOpen.value = true
 }
 
@@ -581,6 +619,8 @@ const openEditLocation = (loc) => {
     name: loc.name,
     google_maps_url: loc.google_maps_url,
     justdial_url: loc.justdial_url || '',
+    sulekha_url: loc.sulekha_url || '',
+    makemytrip_url: loc.makemytrip_url || '',
     is_active: loc.is_active
   }
   addEditModalOpen.value = true
@@ -593,6 +633,8 @@ const submitLocationForm = async () => {
       name: locationForm.value.name,
       google_maps_url: locationForm.value.google_maps_url,
       justdial_url: locationForm.value.justdial_url || null,
+      sulekha_url: locationForm.value.sulekha_url || null,
+      makemytrip_url: locationForm.value.makemytrip_url || null,
       is_active: locationForm.value.is_active
     }
     

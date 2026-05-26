@@ -51,26 +51,14 @@
       </button>
     </form>
 
-    <!-- Demo Autofill Helper Panel -->
-    <div class="mt-8 pt-6 border-t border-slate-800/80 text-center">
-      <p class="text-xs text-slate-500 mb-3">Quickly test the merchant panel using demo account:</p>
-      <button
-        @click="autofillDemo"
-        type="button"
-        class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-500/10 border border-brand-500/20 text-brand-400 hover:bg-brand-500/20 hover:text-brand-300 transition-all text-xs font-semibold"
-        :disabled="loading"
-      >
-        <SparklesIcon class="w-3.5 h-3.5" />
-        <span>Autofill Demo Credentials</span>
-      </button>
-    </div>
+
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { MailIcon, LockIcon, AlertTriangleIcon, SparklesIcon } from 'lucide-vue-next'
+import { MailIcon, LockIcon, AlertTriangleIcon } from 'lucide-vue-next'
 import { useAuthStore } from '~/stores/auth'
 import { useNotificationsStore } from '~/stores/notifications'
 
@@ -88,12 +76,6 @@ const password = ref('')
 const loading = ref(false)
 const errorMessage = ref('')
 
-const autofillDemo = () => {
-  email.value = 'admin@ratingo.in'
-  password.value = 'admin123'
-  errorMessage.value = ''
-  notificationsStore.info('Demo credentials loaded!')
-}
 
 const handleLogin = async () => {
   loading.value = true

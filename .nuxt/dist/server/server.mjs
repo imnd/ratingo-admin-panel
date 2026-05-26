@@ -1,1 +1,0 @@
-export { default } from "file:///D:/domains/ratingo/admin-panel/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

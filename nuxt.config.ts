@@ -5,6 +5,19 @@ export default defineNuxtConfig({
   // Enable SSR globally to bypass Vite Node IPC socket bug on Windows/SPA
   ssr: true,
 
+  // HTML Head configurations (Title & Favicon)
+  app: {
+    head: {
+      title: 'Ratingo Merchant - Reputation Management Platform',
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+      ],
+      meta: [
+        { name: 'description', content: 'Ratingo reputation management and customer feedback loop admin panel' }
+      ]
+    }
+  },
+
   // Render all pages on the client-side (SPA mode)
   routeRules: {
     '/**': { ssr: false }

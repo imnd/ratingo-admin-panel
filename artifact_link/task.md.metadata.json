@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_TASK",
+  "summary": "Task list for connecting the Nuxt frontend with the Laravel backend. It details modifications to frontend config, backend models (for frontend compatibility), auth endpoints, API controllers, database seeders, and validation steps.",
+  "updatedAt": "2026-05-25T16:04:08.507828400Z"
+}

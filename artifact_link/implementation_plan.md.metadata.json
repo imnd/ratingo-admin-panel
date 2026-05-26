@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan to connect the Nuxt 3/4 frontend to the Laravel backend running on Docker (port 8000). The plan covers implementing authentication (login/profile), model accessors for database-to-frontend compatibility, table formatting for paginated feedback, location-specific analytics with chart coordinates, and database seeding for a seamless out-of-the-box demo.",
+  "updatedAt": "2026-05-25T16:03:45.745467700Z",
+  "requestFeedback": true
+}

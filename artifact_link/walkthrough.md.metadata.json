@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Walkthrough of connecting the Nuxt 3/4 frontend to the Laravel Docker backend. It outlines the changes made to the models, routing, authentication flow, and data endpoints to support full database-driven features.",
+  "updatedAt": "2026-05-25T16:06:08.931685100Z"
+}

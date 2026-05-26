@@ -1,0 +1,22 @@
+npm warn deprecated unplugin-vue-router@0.10.9: Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html
+
+> postinstall
+> nuxt prepare
+
+Using 2024-04-03 as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+i Running with compatibility version 4
+|
+*  Types generated in .nuxt.
+
+added 6 packages, removed 12 packages, changed 49 packages, and audited 859 packages in 12s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 5 moderate, 6 high)
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.

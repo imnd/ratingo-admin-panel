@@ -1,0 +1,1 @@
+import{a3 as t,f as s,v as n,H as o}from"./DIsr56y4.js";const p={__name:"index",async setup(r){let a,e;return[a,e]=t(()=>n("/dashboard/analytics")),await a,e(),(_,c)=>(o(),s("div"))}};export{p as default};

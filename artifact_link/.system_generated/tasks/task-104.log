@@ -1,0 +1,440 @@
+
+> dev
+> nuxt dev
+
+|
+•  Nuxt 3.21.6 (with Nitro 2.13.4, Vite 7.3.3 and Vue 3.5.34)
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v3.2.4)
+
+[nuxt] i Running with compatibility version 4
+√ Vite client built in 73ms
+√ Vite server built in 152ms
+[nitro] √ Nuxt Nitro server built in 2614ms
+i Vite client warmed up in 3ms
+
+[nuxt]  WARN  Using postcss.config.js is not supported together with Nuxt. Use options.postcss instead. You can read more in https://nuxt.com/docs/api/nuxt-config#postcss.
+
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined. (repeated 2 times)
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/__nuxt_error?error=true&url=%2F&statusCode=500&statusMessage=Server+Error&message=Vite+Node+IPC+socket+path+not+configured.&stack=Vite+Node+IPC+socket+path+not+configured.%0Aat+D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:34:34)%0Aat+connectSocket+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:31:22)%0Aat+sendRequest+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:150:24)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2F.nuxt%2Fdev%2Findex.mjs:2407:13)%0Aat+async+renderRoute+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5C@nuxt%5Cnitro-server%5Cdist%5Cruntime%5Chandlers%5Crenderer.mjs:109:18)%0Aat+async+Object.handler+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5Cnitropack%5Cdist%5Cruntime%5Cinternal%5Crenderer.mjs:25:21)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2017:19)%0Aat+async+Object.callAsync+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Functx%2Fdist%2Findex.mjs:72:16)%0Aat+async+Server.toNodeHandle+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2316:7)
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined. (repeated 2 times)
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/__nuxt_error?error=true&url=%2Fdev-sw.js?dev-sw&statusCode=500&statusMessage=Server+Error&message=Vite+Node+IPC+socket+path+not+configured.&stack=Vite+Node+IPC+socket+path+not+configured.%0Aat+D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:34:34)%0Aat+connectSocket+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:31:22)%0Aat+sendRequest+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:150:24)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2F.nuxt%2Fdev%2Findex.mjs:2407:13)%0Aat+async+renderRoute+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5C@nuxt%5Cnitro-server%5Cdist%5Cruntime%5Chandlers%5Crenderer.mjs:109:18)%0Aat+async+Object.handler+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5Cnitropack%5Cdist%5Cruntime%5Cinternal%5Crenderer.mjs:25:21)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2017:19)%0Aat+async+Object.callAsync+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Functx%2Fdist%2Findex.mjs:72:16)%0Aat+async+Server.toNodeHandle+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2316:7)
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/__nuxt_error?error=true&url=%2Fdev-sw.js?dev-sw&statusCode=500&statusMessage=Server+Error&message=Vite+Node+IPC+socket+path+not+configured.&stack=Vite+Node+IPC+socket+path+not+configured.%0Aat+D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:34:34)%0Aat+connectSocket+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:31:22)%0Aat+sendRequest+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:150:24)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2F.nuxt%2Fdev%2Findex.mjs:2407:13)%0Aat+async+renderRoute+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5C@nuxt%5Cnitro-server%5Cdist%5Cruntime%5Chandlers%5Crenderer.mjs:109:18)%0Aat+async+Object.handler+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5Cnitropack%5Cdist%5Cruntime%5Cinternal%5Crenderer.mjs:25:21)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2017:19)%0Aat+async+Object.callAsync+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Functx%2Fdist%2Findex.mjs:72:16)%0Aat+async+Server.toNodeHandle+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2316:7)
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  vite-node-shared: NUXT_VITE_NODE_OPTIONS.socketPath is not defined.
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/__nuxt_error?error=true&url=%2Fdev-sw.js?dev-sw&statusCode=500&statusMessage=Server+Error&message=Vite+Node+IPC+socket+path+not+configured.&stack=Vite+Node+IPC+socket+path+not+configured.%0Aat+D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:34:34)%0Aat+connectSocket+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:31:22)%0Aat+sendRequest+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2F@nuxt%2Fvite-builder%2Fdist%2Fvite-node.mjs:150:24)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2F.nuxt%2Fdev%2Findex.mjs:2407:13)%0Aat+async+renderRoute+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5C@nuxt%5Cnitro-server%5Cdist%5Cruntime%5Chandlers%5Crenderer.mjs:109:18)%0Aat+async+Object.handler+(D:%5Cdomains%5Cratingo-admin%5Cnode_modules%5Cnitropack%5Cdist%5Cruntime%5Cinternal%5Crenderer.mjs:25:21)%0Aat+async+file:%2F%2F%2FD:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2017:19)%0Aat+async+Object.callAsync+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Functx%2Fdist%2Findex.mjs:72:16)%0Aat+async+Server.toNodeHandle+(D:%2Fdomains%2Fratingo-admin%2Fnode_modules%2Fh3%2Fdist%2Findex.mjs:2316:7)
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:\\domains\\ratingo-admin\\node_modules\\@nuxt\\nitro-server\\dist\\runtime\\handlers\\renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:\\domains\\ratingo-admin\\node_modules\\nitropack\\dist\\runtime\\internal\\renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+ ERROR  [request error] [unhandled] [GET] http://localhost:3000/dev-sw.js?dev-sw
+
+ 
+ℹ Error: Vite Node IPC socket path not configured.
+
+ ⁃ (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)
+ ⁃ at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)
+ ⁃ at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)
+ ⁃ (async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)
+ ⁃ at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)
+ ⁃ at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)
+ ⁃ (async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)
+ ⁃ at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)
+ ⁃ at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)
+
+[CAUSE]
+Error {
+  stack: 'Vite Node IPC socket path not configured.\n' +
+  'at D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:34:34)\n' +
+  'at connectSocket (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:31:22)\n' +
+  'at sendRequest (D:/domains/ratingo-admin/node_modules/@nuxt/vite-builder/dist/vite-node.mjs:150:24)\n' +
+  'at async file:///D:/domains/ratingo-admin/.nuxt/dev/index.mjs:2407:13)\n' +
+  'at async renderRoute (D:/domains/ratingo-admin/node_modules/@nuxt/nitro-server/dist/runtime/handlers/renderer.mjs:109:18)\n' +
+  'at async Object.handler (D:/domains/ratingo-admin/node_modules/nitropack/dist/runtime/internal/renderer.mjs:25:21)\n' +
+  'at async file:///D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2017:19)\n' +
+  'at async Object.callAsync (D:/domains/ratingo-admin/node_modules/unctx/dist/index.mjs:72:16)\n' +
+  'at async Server.toNodeHandle (D:/domains/ratingo-admin/node_modules/h3/dist/index.mjs:2316:7)',
+  message: 'Vite Node IPC socket path not configured.',
+}
+i nuxt.config.ts updated. Restarting Nuxt...
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v3.2.4)
+
+[nuxt] i Running with compatibility version 4
+√ Vite client built in 30ms
+√ Vite server built in 471ms
+[nitro] √ Nuxt Nitro server built in 1030ms
+i Vite server warmed up in 1ms
+i Vite client warmed up in 2ms
+i nuxt.config.ts updated. Restarting Nuxt...
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v3.2.4)
+
+[nuxt] i Running with compatibility version 4
+√ Vite client built in 37ms
+√ Vite server built in 451ms
+[nitro] √ Nuxt Nitro server built in 972ms
+i Vite server warmed up in 1ms
+i Vite client warmed up in 2ms
+i ✨ new dependencies optimized: lucide-vue-next
+i ✨ optimized dependencies changed. reloading
+i nuxt.config.ts updated. Restarting Nuxt...
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v3.2.4)
+
+[nuxt] i Running with compatibility version 4
+√ Vite client built in 23ms
+√ Vite server built in 431ms
+[nitro] √ Nuxt Nitro server built in 996ms
+i Vite server warmed up in 2ms
+i Vite client warmed up in 3ms

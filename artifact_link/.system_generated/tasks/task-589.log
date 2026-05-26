@@ -1,0 +1,24 @@
+
+> dev
+> nuxt dev
+
+|
+•  Nuxt 3.13.0 (with Nitro 2.13.4, Vite 5.4.21 and Vue 3.5.34)
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using 2024-04-03 as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+i Running with compatibility version 4
+i Re-optimizing dependencies because vite config has changed
+√ Vite client built in 66ms
+√ Vite server built in 1019ms
+[nitro] √ Nuxt Nitro server built in 1082ms
+i Nuxt now supports pinning the behavior of provider and deployment presets with a compatibility date. We recommend you specify a compatibilityDate in your nuxt.config file, or set an environment variable, such as COMPATIBILITY_DATE=2026-05-25.
+i Vite client warmed up in 1ms
+i Vite server warmed up in 1007ms
+i ✨ new dependencies optimized: lucide-vue-next
+i ✨ optimized dependencies changed. reloading

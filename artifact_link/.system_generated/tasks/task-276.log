@@ -1,0 +1,349 @@
+
+> dev
+> nuxt dev
+
+|
+•  Nuxt 3.13.0 (with Nitro 2.13.4, Vite 5.4.21 and Vue 3.5.34)
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using 2024-04-03 as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+i Running with compatibility version 4
+√ Vite client built in 67ms
+√ Vite server built in 1285ms
+[nitro] √ Nuxt Nitro server built in 1165ms
+i Nuxt now supports pinning the behavior of provider and deployment presets with a compatibility date. We recommend you specify a compatibilityDate in your nuxt.config file, or set an environment variable, such as COMPATIBILITY_DATE=2026-05-25.
+i Vite client warmed up in 1ms
+i Vite server warmed up in 1024ms
+i ✨ new dependencies optimized: lucide-vue-next
+i ✨ optimized dependencies changed. reloading
+i nuxt.config.ts updated. Restarting Nuxt...
+Using 2024-04-03 as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+i Running with compatibility version 4
+
+ ERROR  Cannot restart nuxt:  ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+    at Object.readFileSync (node:fs:440:20)
+    at augmentPages (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:229:68)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolvePagesRoutes (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:175:5)
+    at async /D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:910:19
+    at async generateApp (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:5235:3)
+    at async _applyPromised (/D:/domains/ratingo-admin/node_modules/nuxt/node_modules/perfect-debounce/dist/index.mjs:54:10)
+
+
+ ERROR  [unhandledRejection] ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+    at Object.readFileSync (node:fs:440:20)
+    at augmentPages (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:229:68)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async resolvePagesRoutes (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:175:5)
+    at async /D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:910:19
+    at async generateApp (/D:/domains/ratingo-admin/node_modules/nuxt/dist/index.mjs:5235:3)
+    at async _applyPromised (/D:/domains/ratingo-admin/node_modules/nuxt/node_modules/perfect-debounce/dist/index.mjs:54:10)
+
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using `2024-04-03` as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+Running with compatibility version `4`
+|
+•  Restarting Nuxt due to error: Error: ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using `2024-04-03` as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+Running with compatibility version `4`
+|
+•  Restarting Nuxt due to error: Error: ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using `2024-04-03` as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+Running with compatibility version `4`
+|
+•  Restarting Nuxt due to error: Error: ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using `2024-04-03` as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+Running with compatibility version `4`
+|
+•  Restarting Nuxt due to error: Error: ENOENT: no such file or directory, open 'D:\domains\ratingo-admin\src\modules\feedback\pages\index.vue'
+
+  ➜ Local:    http://localhost:3000/
+  ➜ Network:  use --host to expose
+
+Using `2024-04-03` as fallback compatibility date.
+[nuxt:tailwindcss] i Using default Tailwind CSS file
+  ➜ DevTools: press Shift + Alt + D in the browser (v1.7.0)
+
+Running with compatibility version `4`
+√ Vite client built in 32ms
+√ Vite server built in 1103ms
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 491 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 15 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 111 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 30 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 32 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 72 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 51 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 7 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 78 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 47 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 8 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 13 times)
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it.
+
+
+ WARN  'manifest-route-rule' middleware already exists at 'D:/domains/ratingo-admin/node_modules/nuxt/dist/app/middleware/manifest-route-rule.js'. You can set override: true to replace it. (repeated 142 times)
+
